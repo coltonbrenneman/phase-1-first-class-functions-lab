@@ -1,0 +1,57 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-12-16T06:46:03.788Z",
+    "end": "2022-12-16T06:46:04.198Z",
+    "duration": 410
+  },
+  "tests": [
+    {
+      "title": "should return a new array containing the first two drivers from the passed-in array",
+      "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return an array of the last two drivers",
+      "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "has the `returnFirstTwoDrivers` function to as its first element",
+      "fullTitle": "index.js selectingDrivers has the `returnFirstTwoDrivers` function to as its first element",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: selectingDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:22:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "selectingDrivers is not defined"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "should return a new array containing the first two drivers from the passed-in array",
+      "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return an array of the last two drivers",
+      "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
